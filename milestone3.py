@@ -18,6 +18,7 @@ fin = ""
 for i in stuff:
     result = tran_pip(i, max_length=512)
     fin += " " + result[0]['translation_text']
+    print(fin)
     
 
 f.write(f)
